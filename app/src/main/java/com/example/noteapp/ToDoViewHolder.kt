@@ -1,9 +1,10 @@
-package com.example.prisonapp
+package com.example.noteapp
 
 import android.view.View
 import android.widget.CheckBox
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.prisonapp.R
 
 class ToDoViewHolder(view: View): RecyclerView.ViewHolder(view) {
     val cbTodo: CheckBox

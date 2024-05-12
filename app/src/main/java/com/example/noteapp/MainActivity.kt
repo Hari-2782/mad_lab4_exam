@@ -1,4 +1,4 @@
-package com.example.prisonapp
+package com.example.noteapp
 
 import android.os.Bundle
 import android.text.InputType
@@ -11,9 +11,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.prisonapp.database.Todo
-import com.example.prisonapp.database.TodoDatabase
-import com.example.prisonapp.database.TodoRepository
+import com.example.prisonapp.R
+import com.example.noteapp.database.Todo
+import com.example.noteapp.database.TodoDatabase
+import com.example.noteapp.database.TodoRepository
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

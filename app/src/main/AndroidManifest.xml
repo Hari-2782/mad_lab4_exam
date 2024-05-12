@@ -13,10 +13,10 @@
         android:theme="@style/Theme.PrisonApp"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.noteapp.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name="com.example.noteapp.MainActivity2"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

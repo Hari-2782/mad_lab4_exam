@@ -1,9 +1,9 @@
-package com.example.prisonapp
+package com.example.noteapp
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.prisonapp.database.Todo
+import com.example.noteapp.database.Todo
 
 class MainActivityData: ViewModel() {
     private val _data = MutableLiveData<List<Todo>>()

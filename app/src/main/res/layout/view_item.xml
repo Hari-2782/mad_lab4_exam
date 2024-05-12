@@ -8,15 +8,21 @@
 
     <CheckBox
         android:id="@+id/cbTodo"
-        android:layout_width="0dp"
-        android:layout_weight="1"
+        android:layout_width="360dp"
         android:layout_height="wrap_content"
-        android:text="CheckBox" />
+        android:layout_weight="1"
+        android:text="CheckBox"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
 
+    <ImageView
+        android:id="@+id/ivedit"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:src="@android:drawable/ic_menu_edit" />
     <ImageView
         android:id="@+id/ivDelete"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:src="@drawable/baseline_delete_forever_24" />
-
 </LinearLayout>

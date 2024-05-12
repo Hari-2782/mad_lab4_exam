@@ -1,21 +1,23 @@
-package com.example.prisonapp
+package com.example.noteapp
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
-import com.example.prisonapp.database.Todo
-import com.example.prisonapp.database.TodoRepository
+import com.example.noteapp.database.Todo
+import com.example.noteapp.database.TodoRepository
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import android.app.AlertDialog
 import android.widget.EditText
+import com.example.prisonapp.R
 
 class TodoAdapter(items:List<Todo>, repository: TodoRepository,
-                  viewModel:MainActivityData): RecyclerView.Adapter<ToDoViewHolder>() {
+                  viewModel: MainActivityData
+): RecyclerView.Adapter<ToDoViewHolder>() {
     var context:Context? = null
     val items = items
     val repository = repository

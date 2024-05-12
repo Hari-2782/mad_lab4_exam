@@ -1,4 +1,4 @@
-package com.example.prisonapp.database
+package com.example.noteapp.database
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
